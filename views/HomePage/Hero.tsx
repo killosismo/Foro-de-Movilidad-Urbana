@@ -17,19 +17,11 @@ export default function Hero() {
         <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
         <Heading>Foro de Movilidad Urbana</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          El propósito es el de abrir un espacio para la difusión y ponderación que reúna a todos los actores del 
+          sistema en una discusión franca que conduzca al diseño de soluciones apremiantes, en genuino consenso para 
+          resolver la crisis en materia de movilidad urbana, en que está sumido el país, con mayor impacto en el Gran Santo Domingo.
         </Description>
-        <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
-          </Button>
-          <NextLink href="#whitepaper" passHref>
-            <Button transparent>
-              Features <span>&rarr;</span>
-            </Button>
-          </NextLink>
-        </CustomButtonGroup>
+        
       </Contents>
       <ImageContainer>
         <HeroIllustration />
